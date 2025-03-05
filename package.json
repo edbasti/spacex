@@ -1,28 +1,25 @@
 {
-  "name": "spacex-api",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@reduxjs/toolkit": "^2.6.0",
-    "axios": "^1.8.1",
-    "babel-eslint": "^10.0.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-redux": "^9.2.0",
-    "react-scripts": "3.0.1",
-    "redux": "^5.0.1",
-    "sass": "^1.85.1",
-    "un": "0.0.0"
-  },
+  "name": "spacex-infinite-scroll",
+  "version": "1.0.0",
+  "description": "A React project displaying SpaceX launches with infinite scrolling and search functionality.",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint 'src/*/**/*.{js,jsx}'"
+    "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-scripts": "5.0.1",
+    "sass": "^1.69.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.51.0",
+    "eslint-config-react-app": "^7.0.1"
   },
   "browserslist": {
     "production": [
@@ -35,8 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint-config-react-app": "^4.0.1"
   }
 }
